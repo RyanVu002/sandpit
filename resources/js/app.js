@@ -21,6 +21,14 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
+Vue.component('my-component', require('./components/MyComponent.vue').default);
+
+Vue.component('conditional-component', require('./components/ConditionalRendering.vue').default);
+
+Vue.component('list-rendering', require('./components/ListRendering.vue').default);
+
+Vue.component('user-dashboard', require('./components/UserDashboard.vue').default);
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
